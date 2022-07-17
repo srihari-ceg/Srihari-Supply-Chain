@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
  
-    <head>
-  
-      </head>
+<head>
+
+ </head>
    
   <body>
     
     <nav>
+      <div class='title'>
       {{pageTitle}}
-         <ul class='nav nav-pills'>
+</div>
+
+
+      <div class='mainlink'>
+         <ul style="list-style: none;">
          <li><a class='nav-link' routerLink='/welcome'>Home</a></li>
          <li><a class='nav-link' routerLink='/product'>Product List</a></li>
          </ul>
+      </div>
          </nav>
+
+
          <div class='container'>
          <router-outlet></router-outlet>
          </div>
